@@ -1,44 +1,56 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="right">
+  <a href="README.en.md">🇺🇸</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="README.md">🇧🇷</a>&nbsp;&nbsp;&nbsp;
+</p>
 
-## Available Scripts
+<img alt="GoStack" src=./src/assets/header-bootcamp.png />
 
-In the project directory, you can run:
+<h3 align="center">
+  Primeiro projeto React
+</h3>
 
-### `yarn start`
+<p align="center">
+  <a href="#rocket-sobre-a-aplicação">Sobre a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#cd-pacotes-instalados">Pacotes instalados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img alt="Insomnia" src=./src/assets/primeiro-projeto-react.gif />
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## :rocket: Sobre a aplicação
 
-### `yarn test`
+ Uma aplicação em React.js junto com TypeScript, utilizando rotas e com consumo da API do Github.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ Essa aplicação permite a busca de repositórios no Github, e mostrar dados desses repositórios.
 
-### `yarn build`
+### Rotas da aplicação
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A aplicação tem as seguintes rotas:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- **`Buscar repositórios na api do Github`**: Sua página `Dashboard` permite fazer uma busca por repositório na api do Github, e salvar o repositório no `Local Storage`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **`Exibir os repositórios do Local Storage`**: A página `Dashboard` exibe uma lista dos repositórios do Local Storage.
 
-### `yarn eject`
+- **`Exibir informações do repositório`**: Sua página `Repository` deve exibir informações dos repositórios, e uma lista de `Issues`.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## :cd: Pacotes instalados
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+A seguir segue uma lista dos pacotes instalados:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [typescript](https://www.typescriptlang.org/)
+- [axios](https://github.com/axios/axios)
+- [polished](https://polished.js.org/)
+- [react](https://reactjs.org/)
+- [react-icons](https://github.com/react-icons/react-icons#readme)
+- [react-router-dom](https://github.com/ReactTraining/react-router#readme)
+- [react-scripts](https://github.com/facebook/create-react-app#readme)
+- [styled-components](https://styled-components.com/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+	Opcional
+- [eslint](https://eslint.org/)
+- [prettier](https://prettier.io/)
+- [eslint-import-resolver-typescript](https://github.com/alexgorbatchev/eslint-import-resolver-typescript#readme)
 
-## Learn More
+## :memo: Licença
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
