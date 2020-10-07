@@ -6,7 +6,7 @@
 <img alt="GoStack" src=./src/assets/header-bootcamp.png />
 
 <h3 align="center">
-  Primeiro projeto React
+  Github Explorer
 </h3>
 
 <p align="center">
@@ -15,7 +15,7 @@
   <a href="#memo-licença">Licença</a>
 </p>
 
-<img alt="Insomnia" src=./src/assets/primeiro-projeto-react.gif />
+<img alt="Github Explorer" src=./src/assets/primeiro-projeto-react.gif />
 
 ## :rocket: Sobre a aplicação
 
@@ -23,9 +23,9 @@
 
  Essa aplicação permite a busca de repositórios no Github, e mostrar dados desses repositórios.
 
-### Rotas da aplicação
+### Funcionalidades da aplicação
 
-A aplicação tem as seguintes rotas:
+A aplicação tem as seguintes funcionalidades:
 
 - **`Buscar repositórios na api do Github`**: Sua página `Dashboard` permite fazer uma busca por repositório na api do Github, e salvar o repositório no `Local Storage`.
 

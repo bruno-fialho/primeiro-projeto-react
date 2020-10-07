@@ -6,7 +6,7 @@
 <img alt="GoStack" src=./src/assets/header-bootcamp.png />
 
 <h3 align="center">
-  First project in ReactJS
+  Github Explorer
 </h3>
 
 <p align="center">
@@ -15,7 +15,7 @@
   <a href="#memo-licence">Licence</a>
 </p>
 
-<img alt="Insomnia" src=./src/assets/primeiro-projeto-react.gif />
+<img alt="Github Explorer" src=./src/assets/primeiro-projeto-react.gif />
 
 ## :rocket: About the application
 
@@ -23,9 +23,9 @@ An application in React.js along with TypeScript, using routes and with consumpt
 
 This aplication allows searching for repositories on Github, and show data from those repositories.
 
-### Application Routes
+### Application features
 
-The application has the following routes:
+The application has the following features:
 
 - **`Search for repositories in the Github api`**: Your `Dashboard` page allows you to search for a repository in the Github api, and save the repository in `Local Storage`.
 
